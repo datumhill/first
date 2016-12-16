@@ -123,8 +123,12 @@ header {
   padding: 0;
 }
 
-.logo_img {
-  padding: 4px 0;
+.logo_img  {
+
+height: 60px;
+width: 60px;
+padding-top: 40px;
+
 }
 
 /*=========
@@ -563,7 +567,7 @@ article.blog_post {
  color:#fff;	
 }
 
-section.coming_soon_bg {
+/*section.coming_soon_bg {
   background: hsl(221, 93%, 6%) url("../images/topBanner.png") no-repeat fixed 0 0 / cover ;
   position: relative;
   padding: 60px 0 160px;
@@ -577,7 +581,7 @@ section.coming_soon_bg:after {
 	width:100%;
 	content:"";
 	background:rgba(1, 10, 28, 0.8);	
-}
+}*/
 ./*coming_soon_detail {
   width: 80%;
 }
@@ -1976,7 +1980,7 @@ footer .footer_bottom {
 }
 
 
-.logo_img {
+.logo_img  {
   float: left;
   padding: 9px 0;
   position: relative;
